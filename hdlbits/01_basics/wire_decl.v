@@ -1,4 +1,4 @@
-`default_nettype none
+`default_nettype none // Disables automatic wire creation, so typos (like "wrie1") cause a compile error instead of silently creating a new wire.
 //my solution
 module top_module(
     input a,
